@@ -1,0 +1,48 @@
+@charset "EUC-KR";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: gray;
+}
+
+.logo {
+	height: 100px;
+	align-content: center;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 600;
+}
+
+.login {
+	position: relative;
+	left: calc(100% - 150px);
+	width: 150px;
+}
+
+.nav {
+	background-color: blue;
+	height: 50px;
+	padding: auto 0 auto;
+}
+
+.navi {
+	display: flex;
+	list-style: none;
+	position: relative;
+	width: 400px;
+	left: clac(100vw - 200px);
+	padding: auto 0 auto;
+}
+
+.mainPage {
+	padding: 0 200px 0;
+}
+
+.main {
+	background-color: yellow;
+	height: 100vh;
+}

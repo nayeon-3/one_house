@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="project" name="project" path="C:/ku/project/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/project" type="static"/>
+</server>
