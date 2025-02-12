@@ -1,0 +1,100 @@
+/*
+	<weight>: Use a value from 100 to 900
+	<uniquifier>: Use a unique and descriptive class name
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-optical-sizing: auto;
+    font-style: normal;
+}
+/* 기본 스타일 */
+body {
+    background-color: #f8f8f8;
+}
+
+/* 헤더 스타일 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffcc80;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 컨테이너 스타일 */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 이미지 박스 */
+.image-box {
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+img {
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* 정보 박스 */
+.info-box {
+    margin-top: 15px;
+}
+
+.info-box h2 {
+    color: #333;
+}
+
+.info-box .price {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* 상세 정보 스타일 */
+.details {
+    margin-top: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+}

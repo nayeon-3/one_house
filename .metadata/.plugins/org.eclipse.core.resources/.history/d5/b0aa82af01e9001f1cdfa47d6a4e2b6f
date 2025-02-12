@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-House</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body class="body">
+    <header>
+        <div class="logo">One-House</div>
+        <nav>
+            <ul>
+                <li><a href="#">지하철노선도</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="image_box">
+           <small>고시원</small><br>
+           <img src="../img/flower.jpg" alt="고시원 이미지">
+        </div>
+        <div class="container">
+            <div class="info-box">
+                <h2>A 고시원</h2>
+                <p>서울시 영등포구 영등포로 333</p>
+                <p class="price">월세 26~40</p>
+                <p><span class="label">전화문의:</span> 02-1234-5678</p>
+            </div>
+            <div class="details">
+                <p>총 방 개수: 30개</p>
+                <p>남여 분리: 분리되어 있음</p>
+                <p>복도 넓이: 1m</p>
+                <p>주차장: 미보유</p>
+                <p>배달음식 취식: 가능</p>
+                <p>실내흡연: 불가능</p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="page1.js"></script>
+</body>
+</html>

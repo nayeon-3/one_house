@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!-- 스타일 -->
+<link rel="stylesheet" href="main.css">
+<style type="text/css">
+/* Login 1 */
+.icon {
+  position: absolute; 
+  top: 114px; 
+  left: 1136px; 
+  width: 44px; 
+  height: 44px; 
+  fill: #9095A0FF; 
+}
+</style>
+</head>
+<body>
+	<div id="wwrap">
+		<header id="header">
+			<div class="header_area box_inner clear">
+				<h1><a href="#">one_house</a></h1>      <!-- 로고: 왼쪽 배치 -->
+				
+				<nav>
+					<ul class="gnb clear">
+						<li><a href="#" class="menu1">지역별</a></li>
+						<li><a href="#" class="menu2">지하철노선도</a></li>
+						<li><a href="#" class="menu3">커뮤니티</a></li>
+						<li><a href="#" class="menu4">구인구직</a></li>
+					</ul>
+				</nav>
+				
+				<div class="header_cont">              <!-- 오른쪽 끝 배치 -->
+					<p class=icon>login_icon</p>
+					<p><a href="#login">로그인</a></p>
+				</div>
+				
+			</div>
+			
+		</header>
+	</div>
+</body>
+</html>

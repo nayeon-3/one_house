@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;one_house/public/Detailde_Page/Page01.html&apos; to &apos;main.html&apos;" description="Rename resource &apos;Page01.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public/Detailde_Page/Page01.html" name="main.html" stamp="1738742337558" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;main.html&apos; to &apos;main&apos;" description="Move &apos;main.html&apos; to &apos;main&apos;" destination="public/main" element1="public/Detailde_Page/main.html" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1738742355785" updateReferences="true"/>
+</session>
