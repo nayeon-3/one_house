@@ -106,7 +106,7 @@ nav ul li a:hover::after {
     color: white;
     text-decoration: none;
 }
-
+/* -------------------------------------------------- */
 /* 이미지 박스 */
 .image_box{
     max-width: 800px;
@@ -117,15 +117,13 @@ nav ul li a:hover::after {
     border-radius: 8px;
     margin-top: 5px;
 }
-
 /* 컨테이너 스타일 */
 .container {
     max-width: 800px;
     margin: 5px auto;
     padding: 5px;
 }
-
-/* 정보 박스 */
+/* 고시원 이름부터 나오는 정보 박스 */
 .info-box {
     margin-top: 5px;
 }
@@ -133,9 +131,19 @@ nav ul li a:hover::after {
 .info-box h2 {
     color: #333;
 }
+/* 주소 */
+#address{
+    display: inline-block;
+    font-size: 14px;
+}
+/* 전화 문의 */
+.label{
+    font-size: 14px;
+}
 /* 지하철 아이콘 */
 .sub_item {
     display: inline-block;
+    margin: 0px 0px 0px 8px;
     font-size: 14px;
     line-height: 14px;
     letter-spacing: -1px;
@@ -153,18 +161,49 @@ nav ul li a:hover::after {
     font-weight: 600;
     background-color: #003499;
 }
-
+/* 가격 */
 .info-box .price {
     color: #ff5722;
+    font-size: 20px;
     font-weight: bold;
+}
+/* 상세 정보 이름 */
+.title{
+    position: relative;
+    padding: 64px 0 16px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7F7F7F;
+    letter-spacing: -1px;
 }
 
 /* 상세 정보 스타일 */
 .details {
-    margin-top: 20px;
+    position: relative;
+    padding: 10px;
     background: #f1f1f1;
-    padding: 15px;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+    box-sizing: border-box;   
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
 }
 
 .details p {
