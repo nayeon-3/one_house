@@ -1,0 +1,212 @@
+/*
+   <weight>: Use a value from 100 to 900
+   <uniquifier>: Use a unique and descriptive class name
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-optical-sizing: auto;
+    font-style: normal;
+}
+/* 기본 스타일 */
+body {
+    background-color: #f8f8f8;
+}
+
+body {
+    margin: 0; padding: 0;
+    background-color: #f8f8f8;
+    font-family: "Noto Sans KR", serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #ff914d;
+    color: white;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    height: 50px;
+}
+
+.logo img {
+    height: auto;
+    width: 15vw; /* 화면 크기에 따라 로고 크기 조정 */
+    min-width: 200px;
+    max-width: 500px;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+}
+nav ul li {
+    font-size: 1.5vw; /* 화면 크기에 따라 폰트 크기 조정 */
+    white-space: nowrap; /* 줄바꿈 방지 */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    transition: color 0.3s ease-in-out; /* 글자 색 변환 애니메이션 */
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: scaleX(0); /* 처음에는 숨김 */
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #378dd8; /* 마우스 호버 시 글자 색 변경 */
+}
+
+nav ul li a:hover::after {
+    transform: scaleX(1); /* 밑줄 표시 */
+    transform-origin: left;
+}
+
+.login-container {
+    width: 15vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    font-size: 1.2vw; /* 화면 크기에 따라 글자 크기 조정 */
+    width: 20px;
+    position: relative;
+    
+    min-width: 80px;
+    text-align: center;
+    padding: 0.5vw 1vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
+}
+/* -------------------------------------------------- */
+/* 이미지 박스 */
+.image_box{
+    max-width: 800px;
+    margin: 20px auto 5px auto;
+}
+.image_box img {
+    max-width: 800px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+/* 컨테이너 스타일 */
+.container {
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 5px;
+}
+/* 고시원 이름부터 나오는 정보 박스 */
+.info-box {
+    margin-top: 5px;
+}
+/* 고시원 이름 */
+.info-box h2 {
+    color: #333;
+}
+/* 주소 */
+#address{
+    display: inline-block;
+    font-size: 14px;
+}
+/* 전화 문의 */
+.label{
+    font-size: 14px;
+}
+/* 지하철 아이콘 */
+.sub_item {
+    display: inline-block;
+    margin: 0px 0px 0px 8px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -1px;
+}
+.subIcon {
+    display: inline-block;
+    min-width: 15px;
+    padding: 1px 5px;
+    margin: -5px 3px 0 0;
+    vertical-align: middle;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #003499;
+}
+/* 가격 */
+.info-box .price {
+    color: #ff5722;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* 상세 정보 이름 */
+.title{
+    position: relative;
+    padding: 64px 0 16px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #7F7F7F;
+    letter-spacing: -1px;
+}
+
+/* 상세 정보 스타일 */
+.details {
+    position: relative;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+    box-sizing: border-box;   
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
